@@ -19,7 +19,8 @@ app.use(
 );
 
 const corsConFig = {
-  origin:['http://localhost:3000','https://ionvu-store.netlify.app', 'https://deploy-preview-25--ionvu-store.netlify.app', 'https://product-page--ecommerce-react-practice.netlify.app'],
+  origin:['http://localhost:3000','https://ionvu-store.netlify.app', 'https://deploy-preview-25--ionvu-store.netlify.app',
+  'https://product-page--ecommerce-react-practice.netlify.app'],
   credentials: true,
 };
 //cors middleware
